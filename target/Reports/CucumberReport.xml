@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.352009">
+<testcase classname="Validate the search functionality of NHS Jobs website" name="Validate the search functionality with preference job title" time="8.352009">
+<system-out><![CDATA[Given User should launch the browser and load the nhs job url...............passed
+When User should enter the job title in the Job title text box..............passed
+And User should click the search button.....................................passed
+And User should get a list of jobs that matches preferences.................passed
+And User should sort the search results with newest date posted.............passed
+Then Job results should display with newest date posted.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
